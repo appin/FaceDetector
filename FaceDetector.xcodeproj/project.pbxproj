@@ -21,6 +21,7 @@
 		0DE500DC189A5ECF000FB41B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE500BE189A5ECF000FB41B /* UIKit.framework */; };
 		0DE500E4189A5ECF000FB41B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DE500E2189A5ECF000FB41B /* InfoPlist.strings */; };
 		0DE500E6189A5ECF000FB41B /* FaceDetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE500E5189A5ECF000FB41B /* FaceDetectorTests.m */; };
+		0DEE9745189DDFB2003949F9 /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DEE9744189DDFB2003949F9 /* lena.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0DE500E1189A5ECF000FB41B /* FaceDetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceDetectorTests-Info.plist"; sourceTree = "<group>"; };
 		0DE500E3189A5ECF000FB41B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DE500E5189A5ECF000FB41B /* FaceDetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDetectorTests.m; sourceTree = "<group>"; };
+		0DEE9744189DDFB2003949F9 /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lena.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		0DE500C0189A5ECF000FB41B /* FaceDetector */ = {
 			isa = PBXGroup;
 			children = (
+				0DEE9744189DDFB2003949F9 /* lena.jpg */,
 				0DE500C9189A5ECF000FB41B /* AppDelegate.h */,
 				0DE500CA189A5ECF000FB41B /* AppDelegate.m */,
 				0DE500CC189A5ECF000FB41B /* Main.storyboard */,
@@ -231,6 +234,7 @@
 				0DE500D3189A5ECF000FB41B /* Images.xcassets in Resources */,
 				0DE500C5189A5ECF000FB41B /* InfoPlist.strings in Resources */,
 				0DE500CE189A5ECF000FB41B /* Main.storyboard in Resources */,
+				0DEE9745189DDFB2003949F9 /* lena.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +322,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -357,7 +361,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -460,6 +464,7 @@
 				0DE500EB189A5ECF000FB41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DE500EC189A5ECF000FB41B /* Build configuration list for PBXNativeTarget "FaceDetectorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				0DE500EE189A5ECF000FB41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

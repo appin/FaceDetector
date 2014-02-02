@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+- (IBAction)captureImage:(id)sender;
+- (IBAction)faceDetect:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
